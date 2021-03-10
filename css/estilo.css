@@ -14,7 +14,7 @@ header {
     float: none;
     z-index: 99999;
     top: 0;
-    left: 74px;
+    left: 0;
     background: white;
 
 }
@@ -28,8 +28,11 @@ header article  {
 }
 
 header article figure#logo {
-
-}
+    width: 100px;
+    height: 90px;
+    margin: 0;
+    position: relative;
+    float: left;}
 
 header article figure a {}
 
@@ -39,36 +42,45 @@ header article figure a img {
 }
 
 header article nav#navegacion {
-    width: 520px;
+    width: 480px;
     height: 40px;
-    margin: -53px 7px 0;
+    margin: 40px 0 0 0;
     float: right;
     position: relative;}
 
 
 header article nav a{ 
-    width: 73px;
-    height: 40px;
+    width: auto;
+    height: auto;
     margin: 0 5px;
     float: left;
     position: relative;
     display: block;
-    padding: 0px 0;
+    padding: 12px 15px;
     text-decoration: none;
     color: black;
     font-weight: 200;
-    font-size: medium;
-    transition: all 0.3s ease-in;}
+    font-size: 1em;
+    line-height: 1em;
+    transition: all 0.3s ease-in;
+    text-align: center;}
+    
 
 header article nav a:hover{
-    
-    border-radius: 5px;
+    border-radius: 10px;
     border: cornflowerblue;
     background-color: cornflowerblue;
     transition: all 0.3s ease-in;
+    
 
 
 }    
+
+header article nav a:last-child {
+
+}
+
+
 
 footer#logo1{
     background-color: gray;
